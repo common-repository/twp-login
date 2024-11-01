@@ -1,0 +1,161 @@
+/* general */
+.twpRight{text-align: right;width: 100%;display: block;}
+.twpboxsetup{border-radius: 10px;padding:15px;margin-top:30px;Background:#fff;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.twpboxsetup h2{text-align:center;margin-top:3px;}
+/* about page */
+#twptitlelogo{
+  text-align:center;
+  box-shadow:2px 3px 8px 1px #555;
+  width:90px;
+  border-radius:50%;
+  font-size:48px;
+  padding-bottom:10px;
+  padding-left:14px;
+  padding-right:10px;
+  font-weight:bold;
+  color:#fff;
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.twpFlex{
+  margin-top: 56px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* login.php */
+#twpredirect input{width:170px;display:flex;}
+.twpmailsetup{display:flex;justify-content: space-between;margin-bottom:6px;}
+.twpallabel, .twpalabel{font-size: 0.83rem; font-weight: bold;padding-top:7px;}
+#twpredirect input{width:170px;margin-top:20px;}
+.twpbtnsave{float:right;}
+#twpmailremovable{ margin-top:30px;}
+.wp-picker-container .wp-color-result.button{margin-right:0px;}
+#btnshadow{margin-top:9px;}
+.twpmailsubmit{
+  margin-top:30px;
+  text-align: right;
+}
+#twpemailadminpage{
+  display:flex;
+}
+#twpleft{
+  width:400px;
+}
+#twpright{
+  margin-left: 20px;
+  width: calc(100% - 452px);
+}
+#twpright h1{
+  text-align:center;
+}
+#twpLoginFormDemo{
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tpwloginform{
+  width:300px;
+  height:200px;
+  border-radius: 10px;
+  margin-inline:auto;
+}
+#twpLoginFormLogo{
+  width:84px;
+}
+#twpLoginFormDemoLogo{
+  margin-inline: auto;
+  text-align: center;
+  padding-top:5%;
+}
+#twploginDemo{
+  width: 320px;
+  padding-top: 5%;
+  padding-bottom:15%;
+  margin: auto;
+}
+#loginform{
+  border-radius:10px;
+  background: #fff;
+  color: #0a0a0a;
+  margin-top: 20px;
+  margin-left: 0;
+  padding: 26px 24px;
+  font-weight: 400;
+  overflow: hidden;
+  position: relative;
+}
+.twpshadow{
+  -webkit-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.55);
+  box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.55);
+}
+#twploginlabels{
+  font-size:14px;
+}
+#user_login, #user_pass{
+  width:100%;
+  font-size: 24px;
+  padding: .1875rem .3125rem;
+  height:40px;
+  margin: 7px 6px 16px 0;
+}
+#twploginuser{
+  margin-bottom:0;
+}
+.forgetmenot{
+  width:fit-content;
+}
+#twpshowpass{
+  position: relative;
+  background: transparent;
+  color: gray;
+  border: none;
+  float: right;
+  margin-top: -46px;
+  margin-right:4px;
+}
+#twpforgetmenot{
+  display: flex;
+  justify-content: space-between;
+}
+#twpnav{
+  margin-top:24px;
+}
+#backtoblog{
+  margin-top:16px;
+}
+#twpnava, #backtobloga{
+  text-decoration:none;
+  color:black;
+  font-size:13px;
+  margin-left:25px;
+}
+@media screen and (max-width: 850px){
+  #twpemailadminpage{
+    display:block;
+  }
+  #twpleft{
+    margin-inline:auto;
+  }
+  #twpright{
+    margin-left:0;
+    margin-top:60px;
+    width: calc(100% - 10px);
+  }
+}
+@media screen and (max-width: 440px){
+  #twpleft{
+    width:100%;
+  }
+}
+@media screen and (max-width: 354px){
+  #loginform{
+    padding-inline:10px;
+  }
+  #twploginDemo{
+    width:calc(100% - 20px);
+    margin-inline:auto;
+  }
+  .twpboxsetup{
+    min-height:46px;
+  }
+}
